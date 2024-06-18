@@ -53,8 +53,8 @@
                 Kim Phát
             </a>
             <!-- github repository -->
-            <a class="navbar-brand fs-5" href="https://github.com/HieuTran2002/cripple-robot-vfrost">
-                alpha test 0.0.1
+            <a class="navbar-brand" href="https://github.com/HieuTran2002/cripple-robot-vfrost">
+                alpha test 0.0.2
                 <img id="github_logo" src="github.svg" alt="GitHub" width="30" height="30"
                     class="d-inline-block align-text-top">
             </a>
@@ -477,7 +477,7 @@
                 + (currentdate.getMonth() + 1) + "/"
                 + currentdate.getFullYear();
             document.getElementById('result-display-date').innerText = currentdate.getHours() + ":"
-                + currentdate.getMinutes() + ":"
+                + currentdate.getMinutes();
 
             document.getElementById("result-display-pressure").innerText = document.getElementById("pressure_textbox").value;
             document.getElementById("result-display-temperature").innerText = document.getElementById("temperature_textbox").value;
