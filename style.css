@@ -1,0 +1,28 @@
+body{
+    color: #2E3440;
+}
+
+#user_input{
+    margin-top: 5%;
+}
+.input_form {
+    margin-top: 5%;
+}
+
+#tittle {
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+}
+#tittle.blockquote.span{
+    font-size: large;
+}
+
+#github_logo {
+    filter: invert(100%);
+}
+
+#main-session{
+    border-radius: 10px;
+    background-color: #ECEFF4;
+}
